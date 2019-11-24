@@ -8,8 +8,6 @@
   <meta name="author" content=" Mager Kirill ">
   <title>Cameron Pittman: Portfolio</title>
 
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-
   <link href="css/style.css" rel="stylesheet" media="max-width: 480px">
   <link href="css/print.css" rel="stylesheet" media="print">
 
@@ -23,6 +21,22 @@
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       -ms-text-size-adjust: 100%;
       -webkit-text-size-adjust: none;
+    }
+
+    @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3SZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzJS3E-kSBmtLoNJPDtbj2Pk.ttf) format('truetype');
     }
 
     body {
@@ -168,22 +182,19 @@
     <div class="content">
       <ul>
         <li>
-          <img
-            src="img/icons/2048.jpg">
+          <img src="img/icons/2048.jpg">
           <a href="project-2048.html">Build Your Own 2048!</a>
           <p>I made my own version of 2048. How cool is that!?</p>
         </li>
 
         <li>
-          <img
-            src="img/icons/webperf.jpg">
+          <img src="img/icons/webperf.jpg">
           <a href="project-webperf.html">Website Performance Optimization</a>
           <p>Hey... this class looks familiar.</p>
         </li>
 
         <li>
-          <img
-            src="img/icons/mobile.jpg">
+          <img src="img/icons/mobile.jpg">
           <a href="project-mobile.html">Mobile Web Development</a>
           <p>Making mobile apps isn't so hard after all.</p>
         </li>
