@@ -1,4 +1,13 @@
-## Website Performance Optimization portfolio project
+# [Optimized Portfolio link](https://magerrrr.github.io/frontend-nanodegree-mobile-portfolio/ "Optimized Portfolio link")
+When I comleting this task I get new experience with perfomance optimization on website. I used next steps:  
+
+-   add inline styles;
+-   resize images;
+-   optimization images for web;
+-   minify css and js files;
+-   add async to js where this needed;
+-   delete unnecessary lines of code;
+-   resolved block the first render page with fonts;
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
